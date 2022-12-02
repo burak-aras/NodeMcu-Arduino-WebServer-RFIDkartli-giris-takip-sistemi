@@ -62,8 +62,8 @@ const char MAIN_page[] PROGMEM = R"=====(
 )=====";
 String tmpscript ="<script>var search = '%id%'; var replacement = '%bilgiler%';document.body.innerHTML = document.body.innerHTML.split(search).join(replacement)</script>";
 
-const char* ssid = "nodemcu";
-const char* password = "burak1234";
+const char* ssid = "SSID";
+const char* password = "Wifi-Password";
 StaticJsonBuffer<1000> jsonBuffer;
 
 ESP8266WebServer server(80);  
